@@ -1,0 +1,41 @@
+*{  
+box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+            }
+
+header {
+    background-color: blue;
+    color: white;
+    width: 100%;
+}
+
+main {
+    padding: 10px 0;
+    width: 90%;
+    margin: 0 auto;
+    height: 300px;
+}
+
+footer {
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+.header-animation:hover {
+ background-color: green;
+}
+
+
+/* ini adalah area hadhpnhone */ 
+
+@media (max-width: 767.98px) { 
+
+    main {
+        font-size: small;
+    }
+
+}
+
+
